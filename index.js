@@ -128,7 +128,7 @@ const adulttype = age >=18 ? "성인" : "미성년자"
 console.log("🚀 ~ adulttype:", adulttype)
 
 
-if (0) {
+/*if (0) {
   console.log("True입니다.");
   } else {
   console.log("False입니다.");
@@ -139,4 +139,23 @@ if (0) {
     alert("입력해주셔서 감사합니다.");
     } else {
       alert("입력값을 작성해주세요.");
-    }
+    }*/
+
+const daysofweek = [
+  "월요일",
+  "화요일",
+  "수요일",
+  "목요일",
+  "금요일",
+  "토요일",
+  "일요일"
+];
+console.log("🚀 ~ daysofweek:", daysofweek);
+console.log("오늘의 요일:", daysofweek[0])
+
+
+const idol = ["장원영","안유진","리즈","레이","가을","이서"];
+console.log("🚀 ~ idol:", idol);
+console.log("좋아하는 멤버 : ",idol[1]);
+console.log("마지막 멤버 : ",idol[idol.length -1]);
+
