@@ -82,9 +82,20 @@ const sayhello1 = (name)=> {
     console.log("🚀 ~ sayhello1 ~ name:", name)
 };
 
-sayhello1('김길동');
+sayhello1(`김길동`);
 
+//조건문
+if(true) {
+  //조건식이 true일 경우 실행할 코드
+console.log( "조건문 실행")
+}
 
+const score = 80;
+if(score >= 60) {
+  //조건식이 true일 경우 실행할 코드
+console.log( "합격")
+} else {
+console.log("불합격")
+}
 
-
-
+console.log("if문 종료!");
