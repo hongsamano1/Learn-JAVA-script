@@ -20,9 +20,11 @@ console.log("마지막 멤버 : ",idol[idol.length -1]);
 //객체 : key-value가 한쌍으로 구성된 정보들의 묶음
 const person = {
   name:"김진아",
-  isMale: "아냐, 여자야",
-  mbti:"ENTJ"
+  isMale: "여성",
+  mbti:"ENTJ",
+  favoriteFoods:["김밥","잡채"],
 }
 console.log("🚀 ~ person:", person);
 console.log("name:", person['name']);
 console.log("남성여부 : ", person.isMale);
+console.log("좋아하는 음식 : ", person.favoriteFoods[1]);
